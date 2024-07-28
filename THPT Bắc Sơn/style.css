@@ -1,0 +1,338 @@
+html{
+    background-repeat: repeat-y;
+    background-size: 220% auto;
+    background-position: 30%;
+    background-image:url(img/anh\ nen.jpg);
+}
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px 0px;
+    
+}
+
+.container{
+    width: 1500px ;
+    padding: 0 ;
+    margin: 0 auto;
+    height: auto;
+}
+.nen{
+    width: 0 auto;
+    height: 35px;
+    background-color: #00A2FF;
+}
+.main1 table tr td {
+    
+    color: white;
+    background-color: #00A2FF;
+    text-decoration: none;
+   
+   
+}
+.menu1  tr td:hover {
+    color:#00A2FF;
+    background-color:white;
+}
+ .main1  {
+    background-color: #00A2FF;
+    width: 1500px ;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu1 table tr td{
+    padding: 15px;
+    line-height: 5px;
+    height: 35px auto;
+list-style: none;
+text-decoration: none;
+border-left: 2PX solid gray;
+
+}
+h3:hover{
+    color: forestgreen;
+}
+.fomsher  tr td {
+    line-height: 5px;
+   
+}
+.fomsher  tr td img:hover {
+    background-color: orangered;
+}
+
+.dangnhap table tr td  {
+    line-height: 5px;
+}
+.dangnhap table tr td img:hover {
+   background-color: white;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+/* Set Font Chữ */
+
+
+.menu {
+    width: 1500px ;
+    height: 75px;
+    background-color: #00A2FF;
+    margin: 0px auto;
+}
+/* Vẽ background nền Căn giữa */
+
+ul.root {
+    margin: 0px 100px;
+}
+/* Căn lề menu  */
+
+ul.root>li {
+    list-style: none;
+    float: left;
+    position: relative;
+}
+/* Xóa list style Đưa lên 1 dòng cố định */
+
+ul.root>li>a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 0px 15px;
+    line-height: 75px;
+    display: block;
+}
+/* Bỏ gạch chân tạo block cho thẻ a  */
+
+ul.root>li>a:hover {
+    background-color: white;
+    height: 70px;
+    color:orangered;
+    text-decoration: none;
+    transition: ease-in 0.35s;
+}
+
+ul.submenu {
+    width: 170px;
+    background-color:white;
+    min-height: 150px;
+    display: none;
+    position: absolute;
+    border: 1px solid gray;
+}
+/* set thuộc tính độ dài rộng của box sub menu + ẩn sub menu*/
+
+ul.submenu>li {
+    list-style: none;
+}
+/* Bỏ list style */
+
+ul.submenu>li>a {
+    color: black;
+    text-decoration: none;
+    line-height: 40px;
+    display: block;
+    text-indent: 15px;
+    text-decoration: none;
+   
+}
+
+ul.root>li:hover .submenu {
+    display: block;
+}
+/* Hiện submenu  */
+
+.submenu>li>a:hover {
+    background-color: #00A2FF;
+    line-height: 35px;
+    color:white;
+    text-decoration: none;
+}
+/* Hover cho submenu giống hover menu  */
+.home{
+    background-color:white;
+    width: 1500px ;
+    display: flex;
+    height: auto;
+    border: 2PX solid gray;
+   
+
+   
+}
+.trang1{
+    background-color: white ;
+   width: 320px;
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+}  
+.trang2{
+    background-color: white ;
+    width: 700px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+}
+.trang3{
+    background-color: white ;
+    width: 410px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+}
+.gioithieu{
+   background-color: #00A2FF;
+   font-size: x-large;
+}
+.gioithieu1{
+    border: 1px solid gray;
+}
+.gioithieu1 ul li {
+border-bottom: 1px dotted gray;
+list-style: none;
+font-size: large;
+padding: 15px;
+width: 290PX;
+height: 40px;
+
+}
+.gioithieu1 li a:hover{
+    border-bottom: 1px dotted orangered;
+    list-style: none;
+    color: orangered;
+    font-size: large;
+    }
+.anh{
+    margin: 10px;
+}
+.TRONG{
+    height: 60px;
+    width: 677px;
+    border: 1px solid gray;
+}
+.tin1{
+    margin: 5px;
+   border: 1px solid gray;
+    width: 677px ;
+    display: flex;
+    height: auto;
+   justify-content: space-between;
+   
+}
+.tieptin1{
+    background-color: white ;
+  
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+}
+.tieptin2{
+    background-color: white ;
+  
+    border-bottom: 1px dotted gray;
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+}
+
+.thumuc table{    border: 1px solid lightblue;
+    border-collapse: collapse;
+    width: 387px;
+}
+ .thumuc tr td{
+    margin: 10px;  
+}
+.thumuc table tr td img:hover{
+   height: 40px;
+   padding: 10px; 
+   width: 50px; 
+   color: orangered;
+}
+.thumuc td{
+    padding: 10px;
+    
+    
+    border: 1px solid gray;
+    margin: 10px;
+}
+.thumuc td img{
+    width: 35px;
+    height: 35px;
+
+}
+ .thumuc tr:nth-child(2n+2){
+    background-color:#00A2FF;
+}
+.capnhat{
+    width: 387px;
+    height: 64px;
+    border: 1px solid gray;
+    line-height: 64px;
+}
+.thuvien{
+    border: 1px solid gray;
+}
+
+.gioithieu2 ul li {
+border-bottom: 1px dotted gray;
+list-style: none;
+font-size: large;
+padding: 15px;
+width: 320PX;
+height: auto;
+}
+.gioithieu2 li:hover{
+    border-bottom: 1px dotted #00A2FF;
+    list-style: none;
+    color:#00A2FF;
+    font-size: large;
+    
+    }
+ table tr td a{
+    text-decoration: none;
+    color: white;
+}
+table tr td a:hover{
+    color: darkorange;
+}
+.submenu li a{
+    text-decoration: none;
+    color: white;
+}
+.trangcuoi{
+    width: 1500px ;
+}
+.trangcuoi{
+    background-image: url(img/anh\ nen.jpg);
+    
+}
+.trangcuoi img{
+    opacity: 1;
+}
+.foodter{
+    height: 185px;
+    width: 1500px ;
+}
+
+.tienich{
+    height: 255px;
+    width: 1500px ;
+
+}
+
+
+.foodter p{
+    font-size: x-large;
+    text-align: center;
+    color: white;
+    
+}
+.gioithieu1 ul li a{
+    text-decoration: none;
+    color:black;
+
+    }

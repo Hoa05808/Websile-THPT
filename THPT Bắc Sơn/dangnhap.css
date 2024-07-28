@@ -1,0 +1,32 @@
+.DANGNHAP{
+    font-size: x-large;
+    justify-content: space-between;
+
+}
+.table>tr>td{
+   justify-content: space-between;
+}
+td.phandangnhap>input{
+    width: 250px;
+   height: 40px;
+   background-color:white;
+   
+}
+.home{
+    display: flex;
+}
+ .home,.trang1{
+    width: 600px;
+    height: 3000px;
+    background-color: aqua;
+ }
+ .home,.trang2{
+    width: 600px;
+    height: 3000px;
+    background-color:blue;
+ }
+ .home,.trang3{
+    width: 600px;
+    height: 3000px;
+    background-color:chartreuse;
+ }
